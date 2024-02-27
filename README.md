@@ -1,9 +1,11 @@
 # Whisper Batch - Docker
 
-1. Build the docker container
+1. Build the docker container or pull it from the registry
 
 ```
 docker build . -t whisper-batch
+### OR
+docker pull ghcr.io/davidmasp/whisper-batch:latest
 ```
 
 This should take no more than a couple of minutes and you only need to run it once.
